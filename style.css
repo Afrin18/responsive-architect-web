@@ -214,8 +214,13 @@ nav li{
     border: 2px solid #ff900e5e;
     border-radius: 5px;
     text-align: center;
+    transition: width 1s, height 1s, transform 1s;
 }
-
+.fact-box:hover{
+            width: 115px;
+            height: 110px;
+            transform: rotate(180deg);
+}
 .icon{
     width: 24px;
     height: 24px;
