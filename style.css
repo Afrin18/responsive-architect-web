@@ -1,0 +1,369 @@
+* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+/* Common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------- Header Section Styles ----------*/
+.header{
+    width: 100%; 
+    /* height: 1322px; */
+    background-color: rgba(255, 144, 14, 0.1); 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+nav li{
+    list-style: none;
+    display: flex;
+}
+
+/* ==================== Header banner start ====================== */
+.header-banner{
+     
+    margin-top: 70px;
+    padding-left: 160px; 
+    align-items: center;
+    justify-content: center;
+}
+.header-details{
+    width: 620px;
+    height: 215px;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 200px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header-des{
+    color: #727272;
+    font-weight: 100;
+}
+.btn-primary{
+    font-size: 15px;
+    font-weight: 200;
+    background: #FF900E;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.image{
+    width: 1000px;
+    height: 470px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ==================== header banner end =========================== */
+
+/*-------- Main Section Styles ------------*/
+
+/* ================Quick List Section start ================= */
+.list-feature{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    padding: 0px 240px;
+}
+.list-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.list-image{
+    width: 230px;
+    height: 230px;
+}
+.list-details{
+    margin-top: 95px;
+}
+.list-title{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.list-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 0px;
+}
+/* ================ Quick List Section end ================= */
+
+/*=========== Feature love and enjoy start =============*/
+.features{
+    margin-top: 130px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-column-gap: 20px; */
+    display: flex;
+    gap:100px;
+    justify-content: center;
+}
+.title-box{
+    width: 220px;
+    height: 55px;
+    border: 3px solid #FF900E;
+    border-top: 0px; 
+    border-bottom: 0px; 
+    border-right: 0px;
+}
+.side-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 15px;  
+}
+.box-side-des{
+    width: 400px;
+    height: 72px;
+    /* background-color: aquamarine; */
+    padding: 10px 0px;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    
+}
+.side-des{
+    color: #727272;
+    margin-top: 0px;
+}
+.box{
+    width: 400px;
+    height: 72px;
+    background-color: white;
+    box-shadow: 2px 1px 30px #9f9f9f29;
+    padding: 10px 18px;
+    margin-bottom: 13px;
+}
+.box-title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.box-des{
+    font-weight: 100;
+    color: #727272;
+    font-size: 15px;
+}
+
+
+.right-image{
+    width: 450px;
+    height: 600px;
+}
+.btn-special{
+    font-size: 15px;
+    font-weight: 200;
+    background: #eb7f04;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 20px;
+    /* margin-top: 10px; */
+    margin-left: 670px;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+/*=========== Feature love and enjoy end =============*/
+
+/*------------ Some Fact styles start -------------*/
+.fact-detail-box{
+    width: 345px;
+    height: 90px;
+    /* border: 2px solid #ff900e5e; */
+    margin-left: 210px;
+    margin-top: 50px;
+}
+.fact-title{
+    font-weight: 700;
+    margin-top: 0px;
+}
+.fact-des{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0px;
+}
+.fact-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+.fact-box{
+    width: 115px;
+    height: 110px;
+    border: 2px solid #ff900e5e;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+}
+.taka{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.des{
+    font-size: 11px;
+    font-weight: 600;
+    color: #727272;
+    margin-top: 0px;
+}
+/*------------ Some Fact styles end -------------*/
+
+/*--------- Our sponser style start ----------*/
+.sponser-detail-box{
+    width: 370px;
+    height: 90px;
+    /* border: 2px solid #ff900e5e; */
+    margin-left: 500px;
+    margin-top: 110px;
+    text-align: center;
+}
+.sponser-des{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+/*----------- Our sponser style end ----------*/
+
+/*-------------- Extra section styles start ---------------------*/
+.contact{
+    width: 400px;
+    height:400px;
+    /* background-color:  #FFF4E7;  */
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+.contact .massage-title{
+    text-align: left;
+}
+.contact input[type="email"], textarea{
+    margin-bottom: 24px;
+    border-radius: 9px;
+    border: 2px solid #fde2c2;
+    width: 80%;
+    padding: 18px 30px;
+}
+input{
+    height: 20px;
+}
+.btn-send{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    background: #FF900E;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+/*-------------- Extra section styles end ---------------------*/
+
+/*------------ Footer Section Styles -----------*/
+.footer-box{
+    width: 900px;
+    height: 50px;
+    background-color:  #fdefdf;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 210px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.copy{
+    padding-top: 15px;
+    color: #727272;
+    font-size: 12px;
+}
+
+/*----------------- Mobile Device Responsive ---------------*/
+@media only screen and (max-width: 688px) {
+     .header{
+         width: 100%;
+     }
+     nav,
+     .header,
+     .header-details,
+     .header-image,
+     .list-feature,
+     .container .features,     
+     .fact-boxes, .logos
+     {
+     flex-direction: column;
+     gap: 10px; 
+     padding: 10px 10px; 
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    nav li{
+        /* margin-left: 0px; */
+    }
+    .header-banner{
+        padding-left: 0px;
+    }
+    .container .fact-detail-box,
+    .header-details,
+    .container .sponser-detail-box,
+    .footer-box,
+    .contact{
+        margin-left: 0px;
+        padding: 10px 10px;
+
+    }
+    .header-details,
+    .header-banner img,
+    .footer-box{
+        width: 100%;
+    } 
+    .list-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btn-special{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        margin-left: 20px;
+    }
+    .contact input[type="email"], textarea{
+     padding: 0 0 0 5px;
+ }
+
+}
